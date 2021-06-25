@@ -1,0 +1,35 @@
+{
+  "name": "rocket.q-nlw6",
+  "version": "1.0.0",
+  "description": "Aplicação para interagir através de perguntas em uma sala. Nesta sala, o internauta anônimo, pode fazer perguntas, enquanto o criador da sala, em posse de uma senha, pode gerenciar as perguntas feitas por eles.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamar-J/rocket.q-nlw6.git"
+  },
+  "keywords": [
+    "Rocket.Q",
+    "NLW6",
+    "Projeto",
+    "Discover"
+  ],
+  "author": "Tamar Judson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Tamar-J/rocket.q-nlw6/issues"
+  },
+  "homepage": "https://github.com/Tamar-J/rocket.q-nlw6#readme"
+}
